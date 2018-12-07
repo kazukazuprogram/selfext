@@ -60,7 +60,7 @@ def make_zip(compdir):
         for x in glob(compdir+"*"):
             new_zip.write(x, arcname=x)
 
-def gen(compdir='./', output_fn="Ext.py"):
+def gen(compdir='./', outfile="Ext.py"):
     make_zip(compdir=compdir)
-    make_extfile(path=zippath, sfn=sfn)
+    make_extfile(path=zippath, output_fn=outfile)
     remove(zippath)
