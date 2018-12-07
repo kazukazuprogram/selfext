@@ -67,4 +67,4 @@ def gen(compdir='./', outfile="Ext.py"):
 
 if __name__ == "__main__":
     gen()
-    remove("Ext.py")
+    # remove("Ext.py")

@@ -1,7 +1,0 @@
-README.md
-setup.py
-selfext/__init__.py
-selfext.egg-info/PKG-INFO
-selfext.egg-info/SOURCES.txt
-selfext.egg-info/dependency_links.txt
-selfext.egg-info/top_level.txt

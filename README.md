@@ -5,6 +5,10 @@
  - ### How to Use
   - Install
      ```
+     pip install selfext
+     ```
+     OR
+     ```
      pip install git+https://github.com/kazukazuprogram/selfext
      ```
   - To generate a self-extracting script,
