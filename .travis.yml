@@ -1,14 +1,5 @@
 language: python3
 python3:
   - 3.7.0
-install:
-  - pip install coveralls
 script:
   - python3 ./selfext/__init__.py
-  - coverage run --parallel-mode ./selfext/__init__.py 1
-after_success:
-  - coveralls
-script:
-after_success:
-  - coverage combine
-  - coveralls
