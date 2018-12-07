@@ -1,3 +1,4 @@
 /selfext/__pycache__
 /selfext/*/__pycache__
 /testenv
+/.pypirc
