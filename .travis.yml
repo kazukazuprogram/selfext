@@ -1,4 +1,4 @@
 language: python3
 python3:
   - 3.7.0
-script: python3 selfext\__init__.py
+script: python3 selfext/selfext/__init__.py
