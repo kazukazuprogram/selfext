@@ -1,5 +1,5 @@
 # SelfExt
-[![Build](https://api.travis-ci.org/kazukazuprogram/selfext.svg?branch=master)](https://travis-ci.org/kazukazuprogram/selfext/)[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![Build](https://api.travis-ci.org/kazukazuprogram/selfext.svg?branch=master)](https://travis-ci.org/kazukazuprogram/selfext/)[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![Coverage Status](https://coveralls.io/repos/github/kazukazuprogram/selfext/badge.svg?branch=master)](https://coveralls.io/github/kazukazuprogram/selfext?branch=master)
 ## A Python library that generates self-extracting Python script.
 
  - ### How to Use
