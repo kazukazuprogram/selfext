@@ -1,6 +1,14 @@
 language: python3
 python3:
   - 3.7.0
-script: python3 ./selfext/__init__.py
-service_name: travis-pro
-repo_token: BfYik1bfRJHgnY0g1hKxuIefu05cq7cV5
+install:
+  - pip install coveralls
+script:
+  - python3 ./selfext/__init__.py
+  - coverage run --parallel-mode ./selfext/__init__.py 1
+after_success:
+  - coveralls
+script:
+after_success:
+  - coverage combine
+  - coveralls
