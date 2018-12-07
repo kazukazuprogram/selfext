@@ -1,4 +1,5 @@
 # SelfExt
+[![Build](https://api.travis-ci.org/kazukazuprogram/selfext.svg?branch=master)](https://travis-ci.org/kazukazuprogram/selfext/)
 ## A Python library that generates self-extracting Python script.
 
  - ### How to Use

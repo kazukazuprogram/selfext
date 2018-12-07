@@ -64,3 +64,7 @@ def gen(compdir='./', outfile="Ext.py"):
     make_zip(compdir=compdir)
     make_extfile(path=zippath, output_fn=outfile)
     remove(zippath)
+
+if __name__ == "__main__":
+    gen()
+    remove("Ext.py")
